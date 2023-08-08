@@ -22,3 +22,12 @@ background-size:cover ;
 .txt{
     color: red;
 }
+.box{
+    height: 200px;
+    width: 200px;
+    background: black;
+    margin-left: 1200px;
+    border: 6px wheat solid;
+    padding: 30px;
+    box-sizing: border-box;
+}
