@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .heading{
     color: black;
     text-align: left;
@@ -30,4 +35,36 @@ background-size:cover ;
     border: 6px wheat solid;
     padding: 30px;
     box-sizing: border-box;
+    display: none;
+}
+.con{
+    height: 300px;
+    width: 100%;
+    background: red;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.item{
+    height: 200px;
+    width: 300px;
+}
+.i1{
+
+    background: yellow;
+    background-image: url(https://files.worldwildlife.org/wwfcmsprod/images/Tiger_resting_Bandhavgarh_National_Park_India/hero_small/6aofsvaglm_Medium_WW226365.jpg);
+    background-size: cover;
+}
+.i2{
+    background: yellowgreen;
+    background-image: url(https://cdn.pixabay.com/photo/2018/07/31/22/08/lion-3576045_1280.jpg);
+    background-size: cover;
+   
+}
+.i3{
+    background: pink;
+    background-image: url(https://lawbeat.in/sites/default/files/news_images/CHEETAH%2BNTCA.jpg);
+    background-size: cover;
+    
 }
