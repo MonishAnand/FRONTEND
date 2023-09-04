@@ -16,12 +16,86 @@
 .nav{
     height: 80px;
     width: 100%;
-    background-color: black;
+    
     padding-left: 80px;
     padding-right: 80px;
     display: flex;
     align-items: center;
-    font-size: larger;
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-between;
 
+}
+.right{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 130px;
+    font-size: larger;
+}
+.left{
+    width: 300px;
+    display: flex;
+    padding-left: 130px;
+    font-size: smaller;
+
+}
+.con{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    flex-direction: column;
+    
+    
+}
+.define{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.search{
+    height: 50px;
+    width: 750px;
+    background-color: aliceblue;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.fi-rs-marker{
+    color: brown;
+    font-size: 25px;
+    
+    
+}
+.fi-rr-search{
+    color: black;
+}
+.city{
+    height: 100%;
+    width: 200px;
+    font-size: x-large;
+    border: none;
+}
+.city:focus{
+    outline: none;
+}
+.diff{
+    font-weight: 200;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 40px;
+}
+.dish{
+    margin-left: 10px;
+    height: 100%;
+    font-size: 20px;
+    width: 350px;
+    border: none;
+}
+.dish:focus{
+    outline: none;
 }
