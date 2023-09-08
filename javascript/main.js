@@ -14,3 +14,13 @@ function b (){
 }
 const val=b ();
 console.log(val);
+function sum(a,b){
+    console.log(a+b);
+}
+sum(23,25);
+
+const c =()=> {
+    console.log("arrow/fat arrow function");
+}
+c()
+
