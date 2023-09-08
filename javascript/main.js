@@ -10,5 +10,7 @@ for( i=0;i<5;i++){
 }*/
 function b (){
     console.log("hi");
+    return 15;
 }
-b ();
+const val=b ();
+console.log(val);
